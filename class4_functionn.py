@@ -99,7 +99,7 @@ hello(name='Ram', course_name='Python with Data Science', another_course='Python
 
 # #lambda function: the function without name. it is used for instant use and its one-time uses. lambda keyword is used.
 
-# x = lambda a: a%2==0
+# x = lambda a,b: a%2==0
 # even = x(int(input("Enter an even number : ")))
 # print(even)
 

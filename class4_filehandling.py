@@ -7,13 +7,13 @@ path = 'test.txt'
 # print(my_file.writable()) # to check whether to write in file or not
 # my_file.close()
 
-# my_another_file = open(path, 'r+') # to define the mode and r+ mode means we can read and write the 
-# print(my_another_file)
-# print(my_another_file.readable()) # to check whether the file can be read or not
-# print(my_another_file.writable()) # to check whether the file can be write or not
-# print(my_another_file.read()) # to read the file
-# my_another_file.write('\n Ram \n') # to write on the file
-# my_another_file.close()
+my_another_file = open(path, 'r+') # to define the mode and r+ mode means we can read and write the 
+print(my_another_file)
+print(my_another_file.readable()) # to check whether the file can be read or not
+print(my_another_file.writable()) # to check whether the file can be write or not
+print(my_another_file.read()) # to read the file
+my_another_file.write('\n Ram \n') # to write on the file
+my_another_file.close()
 
 # my_another_file = open(path, 'w+')
 # print(my_another_file)
@@ -51,4 +51,4 @@ path = 'test.txt'
 # os.remove('next1.txt')
 
 
-shutil.move('test.txt', 'next1.txt')
+# shutil.move('test.txt', 'next1.txt')
